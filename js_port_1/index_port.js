@@ -1,3 +1,5 @@
+
+// This Js For Hide Header After Scroll Hight 700px 
 document.addEventListener('scroll', function() {
     var target = window.scrollY;
     var header = document.querySelector('header');
@@ -7,6 +9,7 @@ document.addEventListener('scroll', function() {
         header.classList.remove('DisplayNone');
     }
 });
+// This Js For Changing The Color After 700px of The Footer
 document.addEventListener('scroll', function() {
     var target = window.scrollY;
     var footer = document.querySelector('footer');
