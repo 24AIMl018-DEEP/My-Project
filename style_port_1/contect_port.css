@@ -147,3 +147,25 @@ a:hover {
     font-size: 20px;
     font-family:Dubai Light;
 }
+.contect_design_image{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 100px;
+}
+
+.contect_back_hii{
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+.contect_hii{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 140px;
+    z-index: 1;
+}
+.contect_back_img{
+    width: 400px;
+}
