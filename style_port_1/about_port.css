@@ -187,4 +187,10 @@ a:hover {
     .main_contect_container_1_child{
         max-width: 765px;
     }
+    .container_image_next_about{
+        margin-top: 55px;
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+        margin-left :100px;
+    }
 }
