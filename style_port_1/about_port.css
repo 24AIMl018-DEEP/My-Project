@@ -179,3 +179,9 @@ a:hover {
 .contect_back_img{
     width: 400px;
 }
+@media(max-width:765px)
+{
+    .main_container_contect{
+        max-width: 765px;
+    }
+}
