@@ -100,7 +100,8 @@ a:hover {
     margin-left: 200px;
     border-radius: 30px;
 }
-.slider_img{
+
+.slider_img {
     margin-top: 20px;
 }
 
@@ -263,4 +264,42 @@ a:hover {
     display: flex;
     flex-direction: row;
     padding-left: 50px;
+}
+
+/*Media Query For Max- Width: 768px*/
+@media screen and (max-width: 768px) {
+    .main_container_index {
+        max-width: 768px;
+    }
+
+    header {
+        max-width: 100% !important;
+        font-size: 13px;
+    }
+    .mfci_content_1{
+        margin-left :10px; ;
+    }
+    .mfci_content_2{
+        margin-right :10px; ;
+    }
+    .mfcic2_content_1 {
+        padding: 10px;
+    }
+    .main_row_index{
+        flex-direction: column-reverse;
+    } 
+    .slider_index{
+        margin-left :0px;
+        margin-bottom: 150px;
+    }
+        footer{
+            width: ;
+            font-size: 12px;
+        }
+    .footer_content_1{
+        margin-left: 5px;
+    }
+    .footer_content_2{
+        margin-right: 100px;
+    }
 }
