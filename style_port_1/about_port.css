@@ -183,10 +183,10 @@ a:hover {
 .contect_back_img{
     width: 400px;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .main_container_contact {
         display: flex;
-        max-width: 720px !important;
+        max-width: 768px !important;
         max-block-size: 100%;
         max-height :1280px;
     }
@@ -196,17 +196,17 @@ a:hover {
     .mcc1c_container_1{
         font-size: 20PX;
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .contect_design_image{
         padding-right: 100PX;
     }
     .container_image_next_about{
-        width:150px;
+        width:140px;
         margin-top: 100px;
         margin-bottom: 10px;
         padding-bottom: 100px;
-        margin-left :20px;
+        margin-left :15px;
     }
     .mcc1c_container_2{
         font-size: 15px;
@@ -223,7 +223,7 @@ a:hover {
     .main_footer{
         display: flex;
         justify-content: center;
-        width: 600px;
+        width: 500px;
         height:100px;
        
     }
@@ -231,7 +231,7 @@ a:hover {
         width:600px;
     }
     header{
-        width: 600px;
+        width: 500px;
     }
     footer{
         display: flex;
@@ -242,6 +242,7 @@ a:hover {
         width: 100%;
         position: static;
         justify-content:flex-start;
+        font-size: 12px;
     }
     .footer_content_1{
         margin: 0px 40px 0px 0px;
