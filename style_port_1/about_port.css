@@ -224,6 +224,9 @@ a:hover {
         justify-content: center;
         height:100px;
     }
+    .main_header{
+        width:600px;
+    }
     header{
         width: 100%;
     }
