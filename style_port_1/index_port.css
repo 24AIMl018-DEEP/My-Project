@@ -270,6 +270,7 @@ a:hover {
 @media screen and (max-width: 768px) {
     .main_container_index {
         max-width: 768px;
+        max-height: 1282px;
     }
 
     header {
