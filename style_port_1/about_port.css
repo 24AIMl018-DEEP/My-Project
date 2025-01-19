@@ -241,6 +241,7 @@ a:hover {
     footer{
         display: flex;
         width: 600px;
+        margin-top: 200px;
         position: static;
     }
     .footer_content{
