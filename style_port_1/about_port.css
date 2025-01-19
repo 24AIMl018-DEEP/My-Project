@@ -186,7 +186,8 @@ a:hover {
 @media screen and (max-width: 765px) {
     .main_container_contact {
         display: flex;
-        max-width: 765PX;
+        max-width: 605PX;
+        max-height:100px;
     }
     .main_contact_container_1_child {
         max-width: 100%;
