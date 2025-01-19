@@ -184,4 +184,7 @@ a:hover {
     .main_container_contect{
         max-width: 765px;
     }
+    .main_contect_container_1_child{
+        max-width: 765px;
+    }
 }
