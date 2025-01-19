@@ -296,6 +296,7 @@ a:hover {
         flex-direction: column-reverse;
     }
     .main_back_image_index{
+        margin-top: 500px;
         margin-bottom: 500px;
     }
     .slider_index {
