@@ -104,6 +104,10 @@ a:hover {
 }
 
 /*Page Coustome Css Start*/
+.main_container_contact {
+    display: flex;
+    max-width: 100%;
+}
 .main_container_skill{
     display: flex;
     flex-direction:column;
@@ -179,13 +183,18 @@ a:hover {
 .contect_back_img{
     width: 400px;
 }
-@media(max-width:765px)
-{
-    .main_container_contect{
+@media screen and (max-width: 765px) {
+    .main_container_contact {
         display: flex;
-        max-width: 765px;
+        max-width: 100%;
     }
-    .main_contect_container_1_child{
-        max-width: 765px;
+    .main_contact_container_1_child {
+        max-width: 100%;
     }
-}
+    .mcc1c_container_1{
+        font-size: 50PX;
+    }
+    .contect_design_image{
+        padding-right: 100PX;
+    }
+  }
