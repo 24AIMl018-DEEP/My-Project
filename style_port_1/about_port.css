@@ -186,8 +186,9 @@ a:hover {
 @media screen and (max-width: 720px) {
     .main_container_contact {
         display: flex;
-        max-width: 600px;
-        max-height:100%;
+        max-width: 720px !important;
+        max-block-size: 100%;
+        max-height :1280px;
     }
     .main_contact_container_1_child {
         max-width: 100%;
@@ -222,16 +223,30 @@ a:hover {
     .main_footer{
         display: flex;
         justify-content: center;
+        width: 600px;
         height:100px;
+       
     }
     .main_header{
         width:600px;
     }
     header{
-        width: 100%;
+        width: 600px;
     }
     footer{
         display: flex;
+        width: 600px;
+        position: static;
+    }
+    .footer_content{
         width: 100%;
+        position: static;
+        justify-content:flex-start;
+    }
+    .footer_content_1{
+        margin: 0px 40px 0px 0px;
+    }
+    .footer_content_2{
+        width: 30%;
     }
   }
