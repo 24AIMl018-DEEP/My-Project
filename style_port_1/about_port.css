@@ -190,7 +190,7 @@ a:hover {
         max-height:100%;
     }
     .main_contact_container_1_child {
-        max-width: 200px;
+        max-width: 100%;
     }
     .mcc1c_container_1{
         font-size: 20PX;
@@ -224,8 +224,11 @@ a:hover {
         justify-content: center;
         height:100px;
     }
+    header{
+        width: 100%;
+    }
     footer{
         display: flex;
-    
+        width: 100%;
     }
   }
