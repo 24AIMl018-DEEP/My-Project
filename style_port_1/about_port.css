@@ -182,6 +182,7 @@ a:hover {
 @media(max-width:765px)
 {
     .main_container_contect{
+        display: flex;
         max-width: 765px;
     }
     .main_contect_container_1_child{
