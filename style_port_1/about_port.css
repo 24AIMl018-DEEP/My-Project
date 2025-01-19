@@ -192,12 +192,16 @@ a:hover {
         max-width: 100%;
     }
     .mcc1c_container_1{
-        font-size: 50PX;
+        font-size: 20PX;
     }
     .contect_design_image{
         padding-right: 100PX;
     }
     .container_image_next_about{
-        width:200px;
+        width:180px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        padding-bottom: 100px;
+        margin-left :20px;
     }
   }
