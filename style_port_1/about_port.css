@@ -186,14 +186,15 @@ a:hover {
 @media screen and (max-width: 720px) {
     .main_container_contact {
         display: flex;
-        max-width: 200PX;
-        max-height:100px;
+        max-width: 100%;
+        max-height:100%;
     }
     .main_contact_container_1_child {
         max-width: 200px;
     }
     .mcc1c_container_1{
         font-size: 20PX;
+        margin-top: 10px;
         margin-left: 30px;
     }
     .contect_design_image{
