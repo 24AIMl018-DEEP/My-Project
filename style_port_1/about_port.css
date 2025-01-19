@@ -51,6 +51,12 @@ a:hover {
     position: fixed;
     width: 1000px;
 }
+@media(max-width:765px)
+{
+    .main_header{
+        width: 765px;
+    }
+}
 .mfci_content_1 {
     margin-left: 100px;
     width: 100%;
